@@ -1,0 +1,279 @@
+.intro
+{
+  height:250px;
+  width:300px;
+  box-shadow: inset 0px 0px 10px maroon;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  font-size: 22px; 
+  font-family: Ink Free;
+  margin-top:350px;
+  padding: 20px;
+  font-weight: bold;
+  text-align: justify;
+ 
+  }
+.slide
+{
+  height:250px;
+  width:300px;
+  
+  margin-top: 350px;
+   
+}
+.pizza
+{
+  display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    margin-left: -10px;
+
+}
+.burger
+{
+  margin-left: -15px;
+  
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.slide:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}  
+.bb
+{
+  position: absolute !important;
+  height: 80px !important;
+  margin-top: -15px;
+}
+.txt li a
+{
+  font-size: 28px;
+  font-family:Gabriola;
+  color: white;
+ font-weight: italic;
+  padding-top: 2px;
+}
+.txt li:hover a
+{
+  color: black !important;
+}
+.hd
+{
+  color: white;
+  z-index: 2;
+  position: relative;
+  padding-top: 300px;
+  font-family:Gabriola;
+  text-transform: capitalize;
+}
+.hd h1
+{
+  font-size: 50px;
+}
+.hd2
+{
+
+height:299px;
+width:100%;
+background-image:url("h1.jpg");
+ margin-top: 650px;
+  font-family:Gabriola;
+  padding-top: 10px;
+  padding-bottom: 10px;
+font-weight: bolder;
+color:white;
+  
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.whitee
+{
+ 
+height:9px;
+width:99%;
+background-color: :white;
+ margin-top: 250px;
+ 
+}
+.hd3
+{
+height:29px;
+width:100%;
+ margin-top: 5px;
+    position: relative;
+    opacity: 1;   
+}
+.card
+  {
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .card div .img
+  {
+    height: 200px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url('1.jpg');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+    transform: scale(1);
+    z-index: 0;
+  }
+  .card:hover div .img
+  {
+    transform: scale(1.1);
+  }
+  .card1
+  {
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: -60px;
+  }
+  .card1 div .img
+  {
+    height: 200px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url('2.jpg');
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+    transform: scale(1);
+    z-index: 0;
+  }
+  .card1:hover div .img
+  {
+    transform: scale(1.1);
+  }
+  .card2
+  {
+    padding: 20px;
+    margin-top: 50px;
+     margin-left: -60px;
+  }
+  .card2 div .img
+  {
+    height: 200px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url('3.jpg');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+    transform: scale(1);
+    z-index: 0;
+  }
+  .card2:hover div .img
+  {
+    transform: scale(1.1);
+  }
+  .card3
+  {
+    padding: 20px;
+    margin-top: -45px;
+  }
+  .card3 div .img
+  {
+    height: 200px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url('4.jpg');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+    transform: scale(1);
+    z-index: 0;
+  }
+  .card3:hover div .img
+  {
+    transform: scale(1.1);
+  }
+  .card4
+  {
+    padding: 20px;
+    margin-top: -45px;
+    margin-left: -60px;
+  }
+  .card4 div .img
+  {
+    height: 200px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url('5.jpg');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+    transform: scale(1);
+    z-index: 0;
+  }
+  .card4:hover div .img
+  {
+    transform: scale(1.1);
+  }
+  .card5
+  {
+    padding: 20px;
+    margin-top: -45px;
+    margin-left: -60px;
+  }
+  .card5 div .img
+  {
+    height: 200px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url('update2.jpg');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+    transform: scale(1);
+    z-index: 0;
+  }
+  .card5:hover div .img
+  {
+    transform: scale(1.1);
+  }
+
+  .hd5
+{
+    width:100%;
+    background-image:url("h1.jpg");
+    font-family:Gabriola;
+    font-weight: bolder;
+    color:white;
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whiteee
+{
+ 
+height:50px;
+width:99%;
+background-color: :white;
+ margin-top: 50px;
+ 
+}
